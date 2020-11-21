@@ -5,7 +5,7 @@ use \Podlove\Model;
 class Namespace_Enhance extends \Podlove\Modules\Base {
 
     protected $module_name = 'Namespace Enhance';
-    protected $module_description = 'Namespace Enhance Namespace Enhancements';
+    protected $module_description = 'Namespace Enhancements';
     protected $module_group = 'metadata';
     public function load() {
         $this->register_option('ns_locked', 'radio', [
