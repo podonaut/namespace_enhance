@@ -74,7 +74,9 @@ class Namespace_Enhance extends \Podlove\Modules\Base {
             'html' => ['class' => 'regular-text podlove-check-input'],
         ]);
         
-		
+        add_action('rss2_ns', function () {
+            echo 'xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" ';
+        });
 		add_action('podlove_append_to_feed_head', [$this, 'add_ns_locked_to_feed'], 10, 4);
 		add_action('podlove_append_to_feed_head', [$this, 'add_ns_funding_to_feed'], 10, 4);
         //add_action('podlove_append_to_feed_entry', [$this, 'add_ns_person_to_feed'], 10, 4);
