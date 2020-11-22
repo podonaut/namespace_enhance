@@ -24,9 +24,9 @@ Go to this directory:
 
 `<your wordpress install>/wp-content/plugins/podlove-publisher/lib/modules`
 
-Download the [release zip](https://github.com/podonaut/namespace_enhance/releases/download/v0.1/namespace_enhance.tar.gz) and unpack it in that directory:
+Download the [release zip](https://github.com/podonaut/namespace_enhance/releases/download/v0.2/namespace_enhance.tar.gz) and unpack it in that directory:
 
-`wget https://github.com/podonaut/namespace_enhance/releases/download/v0.1/namespace_enhance.tar.gz`
+`wget https://github.com/podonaut/namespace_enhance/releases/download/v0.2/namespace_enhance.tar.gz`
 
 `tar -zxvf namespace_enhance.tar.gz`
 
