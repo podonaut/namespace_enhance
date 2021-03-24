@@ -8,8 +8,6 @@ Only these tags have been added at this time:
 
 `<podcast:locked>`
 
-`<podcast:funding>`
-
 `<podcast:value>`
 
 ### **DO NOT DO AN AUTOMATIC UPDATE OF THE PODLOVE PLUGIN IF YOU HAVE THIS MODULE INSTALLED**
@@ -47,8 +45,6 @@ Now the same module will have more options, and look like this:
 ![](https://github.com/podonaut/namespace_enhance/blob/main/images/ns02.png)
 
 **Locked** just enables or disables the podcast:locked tag
-
-**Funding** is for the podcast:funding tag, and there are two entries for that
 
 And the remaining fields (10 of this writing) are for the value tag.  Suggested is the amount to send per minute of episode play time, defined in bitcoin. This module allows one to add up to 3 value recipients.  You can add the lnd address value, the name of the recipient and the split.
 
